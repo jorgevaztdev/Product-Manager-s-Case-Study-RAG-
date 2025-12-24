@@ -1,12 +1,16 @@
-🎯 The Problem
+### AI Compliance Assistant: RAG-based Logistics Search
+
+A Product Case Study in Retrieval Augmented Generation (RAG)
+
+## 🎯 The Problem
 
 In cross-border logistics (a key focus of my background at Nowports), compliance managers spend 4+ hours per week manually searching through dense PDF customs regulations and Harmonized Tariff Schedules.
 
-💡 The Solution
+## 💡 The Solution
 
 I built this "RAG Compliance Assistant" to reduce information retrieval time from minutes to seconds. By indexing documentation using Cloudflare's Vector Search, users can ask natural language questions ("Can I ship lithium batteries via air freight?") and receive cited, context-aware answers.
 
-🚀 Key Metrics (Success Criteria)
+## 🚀 Key Metrics (Success Criteria)
 
 Retrieval Latency: <3 seconds per query (achieved via Cloudflare Edge execution).
 
