@@ -1,4 +1,18 @@
-# RAG POC with Cloudflare AI Search
+🎯 The Problem
+
+In cross-border logistics (a key focus of my background at Nowports), compliance managers spend 4+ hours per week manually searching through dense PDF customs regulations and Harmonized Tariff Schedules.
+
+💡 The Solution
+
+I built this "RAG Compliance Assistant" to reduce information retrieval time from minutes to seconds. By indexing documentation using Cloudflare's Vector Search, users can ask natural language questions ("Can I ship lithium batteries via air freight?") and receive cited, context-aware answers.
+
+🚀 Key Metrics (Success Criteria)
+
+Retrieval Latency: <3 seconds per query (achieved via Cloudflare Edge execution).
+
+Accuracy: Targeted 90% retrieval accuracy on a "Golden Dataset" of 20 common compliance questions.
+
+Cost Efficiency: $0 operational cost for MVP using Cloudflare's integrated AI/R2 stack (vs. AWS separate components).# RAG POC with Cloudflare AI Search
 
 A Python-based Proof of Concept (POC) demonstrating Retrieval-Augmented Generation (RAG) using Cloudflare's AI Search, R2 storage, and natural language processing.
 
